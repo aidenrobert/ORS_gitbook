@@ -1,0 +1,87 @@
+======================================
+STEP 5 - Stage and commit your changes
+======================================
+
+A commit is a saved snapshot of your work, like pressing "save" in Git.
+However, it records exactly what changed and who changed it, permanently.
+Before committing, you have to "stage" your files.
+This lets you choose exactly which changes go into a commit.
+
+The typical two-step commit process looks like this:
+
+1. git add: Stage the files you want to include.
+2. git commit: Save those staged changes as a commit.
+
+-------------------
+A: Stage your files
+
+Add your recipe file to the staging area:
+
+$ git add recipes/name_dishname.txt
+
+Add the updated table of contents:
+
+$ git add table_of_contents.txt
+
+Check that both files are staged:
+
+$ git status
+
+They should now appear under "Changes to be committed" in green.
+Alternatively, to stage everything at once:
+
+$ git add .
+
+The dot (.) means "all changed files in this folder."
+However, this is less safe; check git status first so you know what you are about to include.
+
+------------------------------
+B: Write a good commit message
+
+You can commit the staged files with a descriptive message:
+
+$ git commit -m "Add aiden_miso.txt recipe and update TOC"
+
+A good commit message:
+- Says what changed: "Add ____ recipe"
+- Is short and direct: under 72 characters for the first line (for display purposes)
+- Uses present tense, preferably (standard practice)
+
+
+---------------------
+C: Verify your commit
+
+$ git log --oneline
+
+You should see your new commit at the top of the list, with your message and a short ID code (e.g. a3f92bc).
+
+If you now run:
+
+$ git status
+
+It should now say: "nothing to commit, working tree clean" again.
+
+-----------------------------------
+D: Make a second commit to practice
+
+For practice: re-read your recipe, fix any typos, add a missing step, or improve an instruction. 
+You may need to do this when working with code, and it is okay to make as many commits as needed.
+Then stage and commit again, using e.g.:
+
+$ git add recipes/yourfile.txt
+$ git commit -m "Fix typo in step 3"
+
+Multiple small commits tell a clear story of your work.
+This is much better than one giant commit at the end.
+
+==========
+CHECKPOINT
+==========
+
+Before moving on:
+
+[ ] git log shows your commit(s) at the top
+[ ] git status shows "nothing to commit, working tree clean"
+[ ] Your commit message clearly describes what you did
+
+When ready, open step_6_push_your_branch.txt.

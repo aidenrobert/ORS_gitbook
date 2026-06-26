@@ -1,0 +1,70 @@
+===============================
+STEP 2 — Explore the repository
+===============================
+
+Before making changes, take a look around and familiarize yourself with the space.
+Here we will introduce a few essential Git commands for inspecting a repo.
+
+---------------------------------
+A: Check the repo's current state
+
+Run this command from inside the Instructions/ folder:
+
+$ git status
+
+You should see:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+This tells you that:
+- You are on the "main branch
+- Your local copy matches the remote (GitHub) copy
+- No files have been changed
+
+-------------------------
+B: See the commit history
+
+View the list of commits made so far:
+
+$ git log --oneline
+
+Each line is one commit, with the short ID and commit message.
+Type Q to quit the log view.
+
+For a visual graph of branches:
+
+$ git log --oneline --graph --all
+
+--------------------------
+C: See what branches exist
+
+List all local branches:
+
+$ git branch
+
+List all branches, including remote ones on GitHub:
+
+$ git branch -a
+
+Right now you will probably only see "main" and "aiden". 
+As your classmates make their branches, this list will grow.
+
+--------------------------
+D: Read the example recipe
+
+Open Recipes/example_hummus.txt and take a look.
+
+==========
+CHECKPOINT
+==========
+
+Before moving on, confirm:
+
+[ ] git status shows "nothing to commit, working tree clean"
+[ ] You have run git log and seen at least one commit
+[ ] You have read the example recipe
+[ ] You have thought about something that you want to add to your branch
+
+When ready, open step_3_create_your_branch.txt.

@@ -1,0 +1,77 @@
+===========================
+STEP 3 — Create your branch
+===========================
+
+A branch is your own private workspace inside the repository.
+Changes on your branch do not affect "main" until you deliberately merge them.
+This is the heart of collaborative Git work, protecting the main code base.
+
+Why branches?
+
+Imagine ten students all editing the same file simultaneously.
+Branches let everyone work independently.
+Later, changes can be carefully reviewed and merged together.
+
+Think of "main" as the published cookbook and your branch as your drafting space.
+
+---------------------------------
+A: Create and move to your branch
+
+Make your branch with the following command:
+
+$ git checkout -b yourname
+
+The -b flag means "create a new branch with this name and switch to it immediately."
+
+------------------------------------------
+B: Confirm that you're in the right branch
+
+Run:
+
+$ git branch
+
+You should see your new branch listed with a * next to it.
+This indicates the currently active branch. For example:
+
+  main
+* aiden
+
+Also check with:
+
+$ git status
+
+It should now say:
+
+On branch aiden
+
+-----------------
+C: What happened?
+
+Your new branch started as an exact copy of "main".
+Nothing has changed in your files yet;
+the branch is just a label that will track your upcoming changes separately from the main branch.
+
+----------------------------
+Useful commands to remember:
+
+Switch to an existing branch:
+$ git checkout branch-name
+
+List all branches:
+$ git branch
+
+Delete a branch (only if you are done with it):
+$ git branch -d branch-name
+
+==========
+CHECKPOINT
+==========
+
+Before moving on, please confirm:
+
+[ ] You have created a branch
+[ ] git branch shows your branch with a * next to it
+[ ] git status shows your branch name at the top
+[ ] You have not made any changes yet
+
+When you're ready, open step_4_write_your_recipe.txt.

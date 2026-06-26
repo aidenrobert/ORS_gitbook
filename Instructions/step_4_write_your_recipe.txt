@@ -1,0 +1,64 @@
+==========================
+STEP 4 - Write your recipe
+==========================
+
+Now you will actually make changes to your copy of the cookbook.
+You will create a new text file for your recipe inside the Recipes/ folder.
+
+---------------------
+A: Create your recipe
+
+Please go ahead and make a recipe file of your own.
+Feel free to follow whatever form you want it to take in the body.
+However, it is good practice to make a header that describes the file.
+Preferably, this is in a format that is easily read and contains relevant details.
+
+You can copy the header in the example_hummus.txt file to do so:
+
+"""
+TITLE         - The name of your dish
+AUTHOR        - How many people it feeds
+CATEGORY      - e.g. Starter, Main, Dessert, Snack, Drink
+TOTAL TIME    - Time needed to carry out the recipe
+"""
+
+This is a simple example of a file header, but it is totally usable in e.g. Python scripts.
+
+-------------------------------
+B: Update table_of_contents.txt
+
+Open table_of_contents.txt in the root of the repo and add a line for your recipe.
+Follow the existing format:
+
+[CATEGORY] Dish Name — Firstname Lastname
+
+Example:
+[Side]       Hummus - Aiden Jönsson
+
+Try to keep the list sorted alphabetically within each category.
+
+-----------------------------
+D: Take a look at the changes
+
+Run:
+
+$ git status
+
+You should now see your new recipe file listed under "Untracked files",
+as well as table_of_contents.txt under "Changes not staged for commit".
+
+This means that Git has noticed your changes but has not recorded them yet.
+In the next step, we will tell Git to record them.
+
+==========
+CHECKPOINT
+==========
+
+Before the next step, confirm:
+
+[ ] Your recipe file exists in the recipes/ folder
+[ ] The filename follows the convention: name_dish.txt
+[ ] You have added your entry to table_of_contents.txt
+[ ] git status shows your new/modified files
+
+When you're ready to move on, open step_5_stage_and_commit.txt.

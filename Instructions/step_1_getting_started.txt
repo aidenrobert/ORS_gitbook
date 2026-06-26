@@ -1,0 +1,75 @@
+===================================================
+STEP 1 - Configuring Git and cloning the repository
+===================================================
+
+Before you can save your recipe, you need to get a copy of it on your own computer.
+In Git, this is known as "cloning" — downloading the full repository to your computer.
+
+
+------------------------------
+A: Check your Git installation
+
+Open a terminal (Mac/Linux) or Git Bash (Windows) and run:
+
+$ git --version
+
+You should see something like:
+
+git version 2.x.x
+
+----------------------------
+B: Introduce yourself to Git
+
+Git needs to know your username and identification so that your work (commits) are tracked properly.
+Run these commands:
+
+$ git config --global user.name "your name"
+$ git config --global user.email "your@email.com"
+
+Use the email address linked to your GitHub account.
+To check that the settings were saved:
+
+$ git config --global user.name
+$ git config --global user.email
+
+-----------------------
+C: Clone the repository
+
+This repository has the address:
+
+https://github.com/aidenrobert/OSR_gitbook.git
+
+All repositories have an address in this format.
+Run this command in the directory you want to clone it to:
+
+$ git clone https://github.com/aidenrobert/OSR_gitbook.git
+
+This creates a folder called "OSR_gitbook" on your computer.
+Now, navigate into it:
+
+$ cd cookbook
+
+--------------------------------
+D: Look around in the repository
+
+You can use standard bash/terminal commands to move around in the repo.
+List the files using:
+
+$ ls          (Mac/Linux)
+$ dir         (Windows)
+
+Here you will see the readme ('README.MD') and the Instructions folder.
+You can open the instruction text files with any text reader/editor to proceed.
+
+==========
+CHECKPOINT
+==========
+
+Check the boxes blow in your text editor to confirm you've tried these steps out:
+
+[ ] git --version shows a version number
+[ ] Your name and email are configured
+[ ] You can see the cookbook/ folder on your computer
+[ ] You are inside the cookbook/ folder in your terminal
+
+When you're ready, open step_2_explore_the_repo.txt.

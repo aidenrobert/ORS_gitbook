@@ -1,0 +1,84 @@
+===================================
+STEP 6 - Push your branch to GitHub
+===================================
+
+So far your commits only exist on your computer.
+"Pushing" uploads your branch to GitHub so that others can see and review it, and backs it up remotely.
+
+-------------------
+A: Push your branch
+
+Run this command (replace the branch name with yours):
+
+$ git push origin aiden
+
+Breaking this down:
+- git push: the command to upload commits
+- origin: the nickname for the GitHub remote repository
+- aiden: the branch you want to push
+
+The first time you push a new branch, Git may ask you to set an "upstream" tracking branch.
+If so, run the longer version it suggests, which looks like:
+
+$ git push --set-upstream origin Aiden
+
+You may be prompted for your GitHub username and password.
+If you use a personal access token instead of a password, paste the token where the password is asked.
+
+-------------------------------
+B: Confirm that the push worked
+
+After the push command runs, you should see output like:
+
+To https://github.com/aidenrobert/OSR_gitbook.git
+* [new branch]  aiden -> Aiden
+
+Now visit the repository on GitHub in your browser:
+
+https://github.com/aidenrobert/OSR_gitbook
+
+Click the "branches" link or the dropdown that says "main".
+You should see your branch, and your others', listed there.
+
+--------------------
+C: What is "origin"?
+
+When you cloned the repo, Git automatically created a nickname called "origin" pointing to the GitHub URL.
+
+You can see it by running:
+
+$ git remote -v
+
+This shows:
+
+origin  https://github.com/aidenrobert/OSR_gitbook.git (fetch)
+origin  https://github.com/aidenrobert/OSR_gitbook.git (push)
+
+"fetch" = address for downloading from GitHub
+"push"  = address for uploading to GitHub
+
+------------------------------
+D: Make more commits if needed
+
+No worries if you pushed a typo. You can fix it:
+
+1. Edit the file
+2. git add yourfile.txt
+3. git commit -m "Fix typo in ____ section"
+4. git push origin Aiden
+
+Each push after the first is simpler, as Git now knows where your branch lives on GitHub.
+
+==========
+CHECKPOINT
+==========
+
+Before moving on, check that:
+
+[ ] git push ran without errors
+[ ] You can see your branch on GitHub in the browser
+[ ] Your recipe file is visible on GitHub when you switch to your branch
+
+You now know the basics of working with Git and backing up your work remotely!
+From here on, you can do solo work on your own code base.
+Please wait for instructions to pull updates for the collaborative exercise.
