@@ -9,17 +9,20 @@ You will create a new text file for your recipe inside the Recipes/ folder.
 A: Create your recipe
 
 Please go ahead and make a recipe file of your own.
-Feel free to follow whatever form you want it to take in the body.
+It can be for whatever you want: bread, panettone, a fried egg, compost, whatever.
+Feel free to follow any form you want it to take in the body.
 However, it is good practice to make a header that describes the file.
-Preferably, this is in a format that is easily read and contains relevant details.
+Preferably, this is in a format that is accepted by others and contains the relevant details.
 
 You can copy the header in the example_hummus.txt file to do so:
 
 """
-TITLE         - The name of your dish
-AUTHOR        - How many people it feeds
-CATEGORY      - e.g. Starter, Main, Dessert, Snack, Drink
-TOTAL TIME    - Time needed to carry out the recipe
+
+TITLE      - The name of your dish
+AUTHOR     - How many people it feeds
+CATEGORY   - e.g. Starter, Main, Dessert, Snack, Drink
+TOTAL TIME - Time needed to carry out the recipe
+
 """
 
 This is a simple example of a file header, but it is totally usable in e.g. Python scripts.

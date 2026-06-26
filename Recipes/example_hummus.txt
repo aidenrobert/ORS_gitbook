@@ -1,0 +1,78 @@
+"""
+
+TITLE      - Dope hummus
+AUTHOR     - Aiden Jönsson
+CATEGORY   - Side
+TOTAL TIME - 1 hour
+
+"""
+
+==================================================================
+EXAMPLE RECIPE - for reference only (Make at your own discretion!)
+==================================================================
+
+TITLE
+-----
+The greatest, creamiest hummus
+
+CATEGORY
+--------
+Side
+
+SERVES
+------
+1
+
+TOTAL TIME
+----------
+1 hour
+
+INGREDIENTS
+-----------
+
+200g dried spaghetti
+100g guanciale or pancetta, cut into small cubes
+2 large eggs
+50g Pecorino Romano, finely grated (plus extra to serve)
+1 clove of garlic (optional)
+Freshly ground black pepper
+Salt for the pasta water
+
+METHOD
+------
+
+  1. Bring a large pot of well-salted water to a boil.
+     Cook the spaghetti according to package instructions
+     until al dente. Reserve a mug of pasta water before draining.
+
+  2. While the pasta cooks, fry the guanciale in a wide pan
+     over medium heat until the fat has rendered and the edges
+     are slightly crispy, about 5–7 minutes. Add garlic if using
+     and cook 1 minute more, then remove garlic and take the pan
+     off the heat.
+
+  3. In a small bowl, whisk together the eggs and most of the
+     Pecorino. Season generously with black pepper.
+
+  4. Drain the pasta and add it to the pan with the guanciale.
+     Toss quickly to coat the pasta in the fat.
+
+  5. Pour the egg mixture over the pasta. Toss constantly,
+     adding splashes of pasta water a little at a time, until
+     you have a glossy, creamy sauce that coats every strand.
+     Work quickly — the heat from the pasta cooks the eggs
+     gently without scrambling them.
+
+  6. Serve immediately with the remaining Pecorino and extra
+     black pepper on top.
+
+
+NOTES
+-----
+  - Never add cream. A real carbonara gets its creaminess
+    from the emulsification of eggs, cheese, and starchy
+    pasta water. Trust the process!
+  - Guanciale (cured pork cheek) is traditional. Pancetta
+    or streaky bacon work as substitutes but taste different.
+  - The pasta water is crucial — the starch in it helps
+    bind the sauce. Do not skip reserving it.

@@ -71,8 +71,13 @@ Then stage and commit again, using e.g.:
 $ git add recipes/yourfile.txt
 $ git commit -m "Fix typo in step 3"
 
-Multiple small commits tell a clear story of your work.
+In general, multiple small commits tell a clear story of your work.
 This is much better than one giant commit at the end.
+
+Feel free to also stage the commits with checked boxes from the checkpoint section of each instruction file.
+This will happen automatically if you stage using:
+
+$ git add .
 
 ==========
 CHECKPOINT
