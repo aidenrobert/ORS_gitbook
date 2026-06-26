@@ -58,8 +58,8 @@ List the files using:
 $ ls          (Mac/Linux)
 $ dir         (Windows)
 
-Here you will see the readme ('README.MD') and the Instructions folder.
-You can open the instruction text files with any text reader/editor to proceed.
+Here you will see the readme ('README.MD'), the Instructions and Recipes folders, and a table of contents ('table_of_contents.txt').
+You can open the instructional text files with any text reader/editor.
 
 ==========
 CHECKPOINT
