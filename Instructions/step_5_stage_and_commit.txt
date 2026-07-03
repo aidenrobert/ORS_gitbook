@@ -85,8 +85,8 @@ CHECKPOINT
 
 Before moving on:
 
-[ ] git log shows your commit(s) at the top
-[ ] git status shows "nothing to commit, working tree clean"
-[ ] Your commit message clearly describes what you did
+[x] git log shows your commit(s) at the top
+[x] git status shows "nothing to commit, working tree clean"
+[x] Your commit message clearly describes what you did
 
 When ready, open step_6_push_your_branch.txt.
