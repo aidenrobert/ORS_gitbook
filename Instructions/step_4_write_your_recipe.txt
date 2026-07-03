@@ -59,9 +59,9 @@ CHECKPOINT
 
 Before the next step, confirm:
 
-[ ] Your recipe file exists in the recipes/ folder
-[ ] The filename follows the convention: name_dish.txt
-[ ] You have added your entry to table_of_contents.txt
-[ ] git status shows your new/modified files
+[x] Your recipe file exists in the recipes/ folder
+[x] The filename follows the convention: name_dish.txt
+[x] You have added your entry to table_of_contents.txt
+[x] git status shows your new/modified files
 
 When you're ready to move on, open step_5_stage_and_commit.txt.

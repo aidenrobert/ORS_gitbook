@@ -69,9 +69,9 @@ CHECKPOINT
 
 Before moving on, please confirm:
 
-[ ] You have created a branch
-[ ] git branch shows your branch with a * next to it
-[ ] git status shows your branch name at the top
-[ ] You have not made any changes yet
+[x] You have created a branch
+[x] git branch shows your branch with a * next to it
+[x] git status shows your branch name at the top
+[x] You have not made any changes yet. No, I have unstaged commits (checking the boxes)
 
 When you're ready, open step_4_write_your_recipe.txt.

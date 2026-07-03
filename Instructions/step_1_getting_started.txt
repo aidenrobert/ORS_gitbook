@@ -67,9 +67,9 @@ CHECKPOINT
 
 Check the boxes blow in your text editor to confirm you've tried these steps out:
 
-[ ] git --version shows a version number
-[ ] Your name and email are configured
-[ ] You can see the cookbook/ folder on your computer
-[ ] You are inside the cookbook/ folder in your terminal
+[x] git --version shows a version number
+[x] Your name and email are configured
+[x] You can see the cookbook/ folder on your computer
+[x] You are inside the cookbook/ folder in your terminal
 
 When you're ready, open step_2_explore_the_repo.txt.

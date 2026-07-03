@@ -62,9 +62,9 @@ CHECKPOINT
 
 Before moving on, confirm:
 
-[ ] git status shows "nothing to commit, working tree clean"
-[ ] You have run git log and seen at least one commit
-[ ] You have read the example recipe
-[ ] You have thought about something that you want to add to your branch
+[X] git status shows "nothing to commit, working tree clean": No I have unstaged changes because I already checked Step 1 To Dos.
+[X] You have run git log and seen at least one commit
+[X] You have read the example recipe
+[X] You have thought about something that you want to add to your branch
 
 When ready, open step_3_create_your_branch.txt.
