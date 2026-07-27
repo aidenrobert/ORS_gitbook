@@ -1,0 +1,13 @@
+"""
+
+TITLE      - Basic Pasta
+AUTHOR     - Lea Haberstock
+CATEGORY   - Main (base recipe) 
+TOTAL TIME - 15 min
+
+"""
+- boil water
+- add pasta
+- cook with open lid for the amount of minutes it says on the package
+- strain with a colander
+- add sauce of your liking
