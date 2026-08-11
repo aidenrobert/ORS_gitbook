@@ -43,3 +43,7 @@ DRINKS
 ============================================================
 Total recipes: 1
 ============================================================
+## SIDES
+
+[Side]       Chapati - Wandera Kisimbiri
+[Side]       Hummus - Aiden Jönsson
